@@ -1,0 +1,30 @@
+body { margin: 0; padding: 0;  height: 100%; border: 2px solid #4D1600; overflow: hidden; 
+    background: url(images\main-bg.jpg); color: #4D1600; }
+#header { background: url(images\header-bg.jpg); padding: 0 5px; cursor: move;}
+#title { line-height: 28px; font-size: 20px; font-weight: bold; color: #F1C9BC; cursor: move; }
+#close-btn { background: url(images\close.jpg); width: 43px; height: 17px; 
+    float: right; font-size: 1px; line-height: 1px; }
+#close-btn:hover { background: url(images\close-hover.jpg); position: relative; }
+#header h2 { line-height: 30px; color: #BC7116; }
+#side { border-top-width: 1px; border-left-width: 3px; background: #E4CA95; overflow: auto; font-size: 12px; }
+#side-head { border-bottom-width: 1px; border-left-width: 3px; background: #CF9E5E; overflow: hidden; }
+#side-title { font-weight: bold; }
+#main-head { border-bottom-width: 1px;  background: #CF9E5E;  }
+#main { border-top-width: 1px; overflow: auto;}
+#content { margin: 0; padding: 0; height: 100%; overflow: auto; word-break : break-all;word-wrap: break-word;word-wrap: break-word;  }
+#open-book { font-family:WingDings 2; color: #CCA9A5; border-width: 1px; border-color: #9C4D26 #4D1600 #4D1600 #9C4D26; background: #812F19; float: right; }
+
+#chapter-list { list-style: none; margin: 0; padding: 0; height: 100%; overflow: auto;}
+#chapter-list li { border-bottom: 1px solid #9C4D26; padding: 2px;}
+#chapter-list a { display: block; color: #4D1600; text-decoration: none; }
+#chapter-list a:hover { background: #996633; color: #E4CA95; }
+.curr-chapter { background: #996633; color: #E4CA95!important; }
+* {
+    scrollbar-highlight-color: #E4CA95;
+    scrollbar-3dlight-color: #9C4D26;
+    scrollbar-shadow-color : #4D1600;
+    scrollbar-darkshadow-color : #100500;
+    scrollbar-base-color : #9C4D26;
+    scrollbar-track-color: #CF9E5E;
+    scrollbar-arrow-color: #CCA9A5;
+}

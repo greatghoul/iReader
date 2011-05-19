@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>iReader 1.0</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+<script type="text/javascript" src="scripts/startup.js"></script>
+<HTA:APPLICATION ID="iReader"
+	APPLICATIONNAME="iReader" 
+	BORDER="none"
+	MAXIMIZEBUTTON="yes"
+	SCROLLFLAT="yes"
+	CAPTION="no"
+	INNERBORDER="no"
+	ICON=""
+	SELECTION="yes"
+	SCROLL="no"
+	SHOWINTASKBAR="yes"
+	SINGLEINSTANCE="yes"
+	SYSMENU="yes"
+	WINDOWSTATE="normal" />
+	
+</head>
+<body>
+<table id="outer" width="100%" height="100%" border="5" bordercolor="#9C4D26" cellpadding="2" cellspacing="0">
+    <tr onselectionstart="return false;">
+        <td id="header" height="30" colspan="2" onmouseup="drag_up()" onmousemove="drag_move()" onmousedown="drag_down()">
+        <a href="#" onclick="window.close();" title="退出程序" id="close-btn"></a>
+        <span id="title">iReader 1.0</span>
+        </td>
+    </tr>
+    <tr>
+        <td id="main-head" height="20"><span id="main-title"></span>&nbsp;</td>
+        <td id="side-head" height="20" width="250">
+            <button id="open-book" onclick="openFile()" onfocus="blur()" title="打开图书">&#204;</button>
+            <span id="side-title">章节列表</span>
+        </td>
+    </tr>
+    <tr>
+        <td id="main" valign="top">
+            <div id="content"></div>
+        </td>
+        <td id="side" valign="top" width="250">
+            <ul id="chapter-list"></ul>
+        </td>
+    </tr>    
+</table>
+</body>
+</html>
