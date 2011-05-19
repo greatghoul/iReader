@@ -5,7 +5,7 @@ iReader是一个由HTA(HTML Application)编写的纯文本小说阅读器，运�
 
 iReader拥有以下特性：
 
-  * 木质风格的阅读器，良好的阅读体验([由Chrome主题Desktop修改而来][tm]) 
+  * 木质风格的阅读器，良好的阅读体验(由Chrome主题[Desktop][tm]修改而来) 
   * 自动识别章节目录(目前能识别的章节格式还非常有限)
 
 TODO:
